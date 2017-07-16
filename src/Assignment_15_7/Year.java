@@ -5,7 +5,7 @@ package Assignment_15_7;
  */
 public enum Year {
     A(2015), B(2016), C(2017), D(2018), E(2019), F(2020);
-    int year;
+    public int year;
 
     Year(int year) {
         this.year = year;

@@ -1,5 +1,7 @@
 package Assignment_15_7.employee;
 
+import Assignment_15_7.Year;
+
 /**
  * Created by jagtapm on 7/16/2017.
  */
@@ -18,7 +20,7 @@ public class EmployeeService {
         System.out.println("Employee id " + employee.id);
         System.out.println("Employee name " + employee.name);
         System.out.println("Employee joining month " + employee.joiningMonth);
-        System.out.println("Employee joining year " + employee.joiningYear);
+        System.out.println("Employee joining year " + employee.joiningYear.year);
         System.out.println("Employee attendance " + employee.attendance);
         System.out.println("Employee accountbalace " + employee.accountBalance);
         System.out.println("Employee grade " + employee.grade);
