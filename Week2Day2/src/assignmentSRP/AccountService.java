@@ -9,8 +9,16 @@ class AccountService {
          System.out.println("updated salary is: " + employee.getSalary());
     }
 
+    static void updateSalaryByPercentage(EmployeeService employee) {
+         if (employee.getSalary() < 20000.00) {
+             employee.setSalary(employee.getSalary() * 1.2);
+         }
+
+        System.out.println("updated salary is: " + employee.getSalary());
+    }
+
      static double calculateTDS(EmployeeService employee) {
-        return (employee.getSalary() * 0.18);
+        return (employee.getSalary() * 0.38);
 
     }
 
