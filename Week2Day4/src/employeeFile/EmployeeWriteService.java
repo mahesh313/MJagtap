@@ -2,25 +2,16 @@ package employeeFile;
 
 import org.junit.Test;
 
-import java.io.*;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.util.*;
 
 /**
  * Created by jagtapm on 7/27/2017.
  */
-public class EmployeeWriteService extends ObjectOutputStream{
-    public EmployeeWriteService(OutputStream out) throws IOException {
-        super(out);
-    }
-
-    protected EmployeeWriteService() throws IOException, SecurityException {
-    }
-
-    @Override
-    protected void writeObjectOverride(Object obj) throws IOException {
-        super.writeObjectOverride(obj);
-    }
-
+public class EmployeeWriteService {
     public List<Employee> createData() {
         Employee[] employees = {new Employee(11, "Mahesh", 644322, "Member Technical", 21),
                 new Employee(1, "Jagtap", 6443, "Member Technical", 21),
