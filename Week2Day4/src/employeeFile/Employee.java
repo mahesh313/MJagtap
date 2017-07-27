@@ -1,14 +1,14 @@
 package employeeFile;
 
-import java.io.Serializable;
+import java.io.*;
 
 /**
  * Created by jagtapm on 7/27/2017.
  */
-public class Employee implements Comparable<Employee>, Serializable{
+public class Employee implements Comparable<Employee>, Externalizable{
     private int id;
     private String name;
-    transient private double salary;
+    private double salary;
     private String designation;
     private int age;
 
@@ -76,5 +76,21 @@ public class Employee implements Comparable<Employee>, Serializable{
     @Override
     public int compareTo(Employee o) {
         return this.getId() - o.getId();
+    }
+
+    @Override
+    public void writeExternal(ObjectOutput out) throws IOException {
+        out.writeObject(name);
+        out.writeObject(designation);
+        out.writeInt(id);
+        out.writeInt(age);
+    }
+
+    @Override
+    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+        name = (String) in.readObject();
+        designation = (String) in.readObject();
+        id = in.readInt();
+        age = in.readInt();
     }
 }
