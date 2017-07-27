@@ -1,7 +1,11 @@
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
 /**
  * Created by jagtapm on 7/22/2017.
  */
-public class Employee {
+public class Employee implements Comparable<Employee>{
     private String firstName;
     private String lastName;
     private String departmentName;
@@ -26,6 +30,8 @@ public class Employee {
                 ", location=" + location +
                 '}';
     }
+
+    List<Comparator<Employee>> comparators = new ArrayList<>();
 
     public String getFirstName() {
         return firstName;
@@ -65,5 +71,31 @@ public class Employee {
 
     public void setLocation(Location location) {
         this.location = location;
+    }
+
+    @Override
+    public int compareTo(Employee o) {
+        int i = this.getLocation().compareTo(o.getLocation());
+        if(i != 0) {
+            return i;
+        }
+        i = this.getDepartmentName().compareToIgnoreCase(o.getDepartmentName());
+        if(i != 0) {
+            return i;
+        }
+        i = this.getFirstName().compareToIgnoreCase(o.getFirstName());
+        if(i != 0) {
+            return i;
+        }
+        i = this.getLastName().compareToIgnoreCase(o.getLastName());
+        if(i != 0) {
+            return i;
+        }
+        i = this.getEmployeeId() - o.getEmployeeId();
+        return i;
+
+
+
+
     }
 }

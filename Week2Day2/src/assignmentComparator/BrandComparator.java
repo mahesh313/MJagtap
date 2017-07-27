@@ -10,4 +10,6 @@ public class BrandComparator implements Comparator<Car>{
     public int compare(Car c1, Car c2) {
         return c1.getBrand().compareToIgnoreCase(c2.getBrand());
     }
+
+
 }

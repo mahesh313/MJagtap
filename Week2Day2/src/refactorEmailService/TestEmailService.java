@@ -10,4 +10,6 @@ public class TestEmailService {
     public void testEmailservice() {
         EmailService.sendEmail("admin","jmahesh313@yahoo.com","hi mahesh!!");
     }
+
+
 }
