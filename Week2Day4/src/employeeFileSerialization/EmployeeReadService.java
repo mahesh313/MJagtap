@@ -1,4 +1,4 @@
-package employeeFile;
+package employeeFileSerialization;
 
 import org.junit.Test;
 
@@ -14,12 +14,12 @@ public class EmployeeReadService {
         ObjectInputStream ois = null;
 
         try {
-            fis = new FileInputStream("C:/Users/jagtapm/Documents/MJagtap/Week2Day4/src/employeeFile/EmployeeDetails.txt");
+            fis = new FileInputStream("C:/Users/jagtapm/Documents/MJagtap/Week2Day4/src/employeeFileSerialization/EmployeeDetails.txt");
             ois = new ObjectInputStream(fis);
             Object o1;
             while ((o1 = ois.readObject()) != null) {
                 Employee employee = (Employee) o1;
-                System.out.println(employee.toString());
+//                System.out.println(employee.toString());
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
