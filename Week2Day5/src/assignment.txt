@@ -1,0 +1,19 @@
+//calculatorApi
+1) Design your calculator API to be distributed to other developers
+   in such a way so that other developers can pass different 
+   implementation of it in the form of lambdas.	
+
+
+//arrayApi
+2) Collect some numbers in an array and design an API around it
+   so that developers who will use your API should be able to
+   do different manipulations on these numbers on the fly.
+   Hint - use functional interface
+
+
+//package messageApi
+3) Design a message sending API using functional programming approach
+   introduced in Java 8. And design it to be flexible enough so that
+   user/developers will supply the API behaviour according to thier 
+   requirement i.e. (sms,email,whatsapp,jms) while sending message.
+    
