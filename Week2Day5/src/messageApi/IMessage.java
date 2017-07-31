@@ -6,5 +6,6 @@ package messageApi;
 @FunctionalInterface
 public interface IMessage {
     void sendMessage(String from,String to,String subject,String message);
+
 }
 
