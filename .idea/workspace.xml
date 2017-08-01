@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d426f2b-481a-4f38-a44e-a126a214cf6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week2Day6/src/streamDemo/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week2Day6/src/streamDemo/EmployeeStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/PrintTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/PrintWorker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/TestThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/ValueTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/ValueWorker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment2/TaskReadFileA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment2/TaskReadFileB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment2/ThreadFileA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment2/ThreadFileB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment2/ThreadFileDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment2/file1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment2/file2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment3/ExecutorService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment3/ExecutorServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day2/src/concurrentApiDemo/ConcurrentApi.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week2Day5/src/messageApi/IMessage.java" afterPath="$PROJECT_DIR$/Week2Day5/src/messageApi/IMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compare/Compare.java" afterPath="$PROJECT_DIR$/src/compare/Compare.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/TestThread.java" afterPath="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/TestThread.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,21 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="PrintTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/PrintTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ExecutorServiceDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../TrainingCode/cdk-java/day11/ExecutorServiceDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+              <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -58,7 +32,7 @@
         <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Executors.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="123" column="53" lean-forward="true" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="53" />
+              <caret line="123" column="53" lean-forward="false" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -74,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExecutorServiceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExecutorServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment3/ExecutorServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -86,51 +60,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2Day6/src/streamDemo/Employee.java">
+      <file leaf-file-name="ConcurrentApi.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week3Day2/src/concurrentApiDemo/ConcurrentApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="1518">
+              <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Math.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/Math.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="733" column="25" lean-forward="true" selection-start-line="733" selection-start-column="25" selection-end-line="733" selection-end-column="25" />
+              <folding>
+                <element signature="e#32010#32011#0" expanded="true" />
+                <element signature="e#32095#32096#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockingQueue.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/BlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="185" column="22" lean-forward="true" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedHashMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/LinkedHashMap.java">
+      <file leaf-file-name="Collections.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/Collections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4488">
-              <caret line="162" column="13" lean-forward="false" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
+            <state relative-caret-position="191">
+              <caret line="3112" column="65" lean-forward="false" selection-start-line="3112" selection-start-column="55" selection-end-line="3112" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintWorker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/PrintWorker.java">
+      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/Collection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="42" />
+            <state relative-caret-position="1563">
+              <caret line="589" column="23" lean-forward="false" selection-start-line="589" selection-start-column="14" selection-end-line="589" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2Day5/src/messageApi/IMessage.java">
+      <file leaf-file-name="TestThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/TestThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-254">
-              <caret line="215" column="19" lean-forward="false" selection-start-line="215" selection-start-column="14" selection-end-line="215" selection-end-column="19" />
+            <state relative-caret-position="330">
+              <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -163,6 +152,8 @@
       <find>gc</find>
       <find>values</find>
       <find>toStr</find>
+      <find>concurren</find>
+      <find>concurrent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Week2Day3/src/com/exception/InvalidAgeException.java" />
         <option value="$PROJECT_DIR$/Week2Day3/src/com/exception/AgeLessThan20Exception.java" />
         <option value="$PROJECT_DIR$/Week2Day3/src/com/exception/RatingBelow3Exception.java" />
         <option value="$PROJECT_DIR$/Week2Day3/src/com/exception/AgeLessThan10Exception.java" />
@@ -221,12 +211,13 @@
         <option value="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment2/ThreadFileA.java" />
         <option value="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment2/ThreadFileDemo.java" />
         <option value="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/ValueTask.java" />
-        <option value="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/TestThread.java" />
         <option value="$PROJECT_DIR$/Week2Day5/src/messageApi/IMessage.java" />
         <option value="$PROJECT_DIR$/Week2Day6/src/streamDemo/Employee.java" />
         <option value="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/PrintTask.java" />
         <option value="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment3/ExecutorService.java" />
         <option value="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment3/ExecutorServiceTest.java" />
+        <option value="$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/TestThread.java" />
+        <option value="$PROJECT_DIR$/Week3Day2/src/concurrentApiDemo/ConcurrentApi.java" />
       </list>
     </option>
   </component>
@@ -267,6 +258,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MJagtap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MJagtap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MJagtap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Week3Day2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MJagtap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MJagtap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Week3Day2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concurrentApiDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1019,53 +1046,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExecutorServiceTest.executorServiceTest">
-    <configuration default="false" name="ArrayHolderTest.testFold" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="arrayApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Week2Day5" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="arrayApi" />
-      <option name="MAIN_CLASS_NAME" value="arrayApi.ArrayHolderTest" />
-      <option name="METHOD_NAME" value="testFold" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="EmployeeStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="streamDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="streamDemo.EmployeeStream" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Week2Day6" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ConcurrentApi.testConcurrentApi">
     <configuration default="false" name="ThreadFileDemo.testThreadFileDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1131,6 +1112,58 @@
       <option name="PACKAGE_NAME" value="threadDemoAssignment3" />
       <option name="MAIN_CLASS_NAME" value="threadDemoAssignment3.ExecutorServiceTest" />
       <option name="METHOD_NAME" value="executorServiceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConcurrentApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="concurrentApiDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Week3Day2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="concurrentApiDemo" />
+      <option name="MAIN_CLASS_NAME" value="concurrentApiDemo.ConcurrentApi" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConcurrentApi.testConcurrentApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="concurrentApiDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Week3Day2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="concurrentApiDemo" />
+      <option name="MAIN_CLASS_NAME" value="concurrentApiDemo.ConcurrentApi" />
+      <option name="METHOD_NAME" value="testConcurrentApi" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1349,19 +1382,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayHolderTest.testFold" />
-      <item index="1" class="java.lang.String" itemvalue="Application.EmployeeStream" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ThreadFileDemo.testThreadFileDemo" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestThread.testThread" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ExecutorServiceTest.executorServiceTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ThreadFileDemo.testThreadFileDemo" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestThread.testThread" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ExecutorServiceTest.executorServiceTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ConcurrentApi" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ConcurrentApi.testConcurrentApi" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ExecutorServiceTest.executorServiceTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestThread.testThread" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ThreadFileDemo.testThreadFileDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.EmployeeStream" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayHolderTest.testFold" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ConcurrentApi.testConcurrentApi" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ConcurrentApi" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ExecutorServiceTest.executorServiceTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestThread.testThread" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ThreadFileDemo.testThreadFileDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -1379,35 +1412,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExecutorServiceTest_executorServiceTest - 2017.07.31 at 23h 30m 44s.xml">
-      <configuration name="ExecutorServiceTest.executorServiceTest" configurationId="JUnit" />
+    <history-entry file="ConcurrentApi - 2017.08.01 at 12h 30m 10s.xml">
+      <configuration name="ConcurrentApi" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExecutorServiceTest_executorServiceTest - 2017.07.31 at 23h 31m 05s.xml">
-      <configuration name="ExecutorServiceTest.executorServiceTest" configurationId="JUnit" />
+    <history-entry file="ConcurrentApi - 2017.08.01 at 12h 30m 22s.xml">
+      <configuration name="ConcurrentApi" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExecutorServiceTest_executorServiceTest - 2017.07.31 at 23h 31m 34s.xml">
-      <configuration name="ExecutorServiceTest.executorServiceTest" configurationId="JUnit" />
+    <history-entry file="ConcurrentApi - 2017.08.01 at 12h 31m 16s.xml">
+      <configuration name="ConcurrentApi" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExecutorServiceTest_executorServiceTest - 2017.07.31 at 23h 31m 53s.xml">
-      <configuration name="ExecutorServiceTest.executorServiceTest" configurationId="JUnit" />
+    <history-entry file="ConcurrentApi - 2017.08.01 at 12h 35m 06s.xml">
+      <configuration name="ConcurrentApi" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExecutorServiceTest_executorServiceTest - 2017.07.31 at 23h 32m 00s.xml">
-      <configuration name="ExecutorServiceTest.executorServiceTest" configurationId="JUnit" />
+    <history-entry file="ConcurrentApi - 2017.08.01 at 12h 37m 38s.xml">
+      <configuration name="ConcurrentApi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConcurrentApi - 2017.08.01 at 12h 39m 42s.xml">
+      <configuration name="ConcurrentApi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConcurrentApi_testConcurrentApi - 2017.08.01 at 12h 38m 32s.xml">
+      <configuration name="ConcurrentApi.testConcurrentApi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConcurrentApi_testConcurrentApi - 2017.08.01 at 12h 39m 30s.xml">
+      <configuration name="ConcurrentApi.testConcurrentApi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConcurrentApi_testConcurrentApi - 2017.08.01 at 12h 41m 11s.xml">
+      <configuration name="ConcurrentApi.testConcurrentApi" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ExecutorServiceTest_executorServiceTest - 2017.07.31 at 23h 32m 56s.xml">
       <configuration name="ExecutorServiceTest.executorServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestThread_testThread - 2017.07.31 at 13h 10m 39s.xml">
-      <configuration name="TestThread.testThread" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestThread_testThread - 2017.07.31 at 13h 33m 48s.xml">
-      <configuration name="TestThread.testThread" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadFileDemo_testThreadFileDemo - 2017.07.31 at 11h 56m 28s.xml">
-      <configuration name="ThreadFileDemo.testThreadFileDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadFileDemo_testThreadFileDemo - 2017.07.31 at 11h 56m 47s.xml">
-      <configuration name="ThreadFileDemo.testThreadFileDemo" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1424,7 +1457,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.01300813" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35008976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52064633" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949513" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1456,8 +1489,16 @@
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Week3Day2/src/concurrentApiDemo/ConcurrentApi.java</url>
+          <line>18</line>
+          <properties class="concurrentApiDemo.ConcurrentApi" method="testConcurrentApi">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1466,30 +1507,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week2Day4/src/employeeFileSerialization/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment_24_7/src/Year.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment_24_7/src/Timestamp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assignment_24_7/src/Month.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -1530,14 +1547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3383">
-          <caret line="3606" column="65" lean-forward="false" selection-start-line="3606" selection-start-column="58" selection-end-line="3606" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week2Day5/src/assignment.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1554,23 +1563,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13437">
-          <caret line="579" column="22" lean-forward="false" selection-start-line="579" selection-start-column="22" selection-end-line="579" selection-end-column="22" />
-          <folding>
-            <element signature="e#26957#26958#0" expanded="false" />
-            <element signature="e#27022#27023#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week2Day6/src/streamDemo/EmployeeStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11">
           <caret line="72" column="12" lean-forward="false" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1801,14 +1799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/TestThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/PrintWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1844,7 +1834,7 @@
     <entry file="file://$PROJECT_DIR$/Week2Day6/src/streamDemo/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <caret line="42" column="1" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1860,7 +1850,7 @@
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="123" column="53" lean-forward="true" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="53" />
+          <caret line="123" column="53" lean-forward="false" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -1868,7 +1858,7 @@
     <entry file="file://$PROJECT_DIR$/../TrainingCode/cdk-java/day11/ExecutorServiceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -1885,6 +1875,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1563">
+          <caret line="589" column="23" lean-forward="false" selection-start-line="589" selection-start-column="14" selection-end-line="589" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="185" column="22" lean-forward="true" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="3112" column="65" lean-forward="false" selection-start-line="3112" selection-start-column="55" selection-end-line="3112" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/TestThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="733" column="25" lean-forward="true" selection-start-line="733" selection-start-column="25" selection-end-line="733" selection-end-column="25" />
+          <folding>
+            <element signature="e#32010#32011#0" expanded="true" />
+            <element signature="e#32095#32096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3Day2/src/concurrentApiDemo/ConcurrentApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

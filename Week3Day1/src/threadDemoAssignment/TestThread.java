@@ -11,16 +11,8 @@ public class TestThread {
     @Test
     public void testThread() {
         int i = 0;
-        Thread valueWorker = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                int j = 0;
-                while (j < 20000) {
-                    (TestThread.this.i)++;
-                    j++;
-                }
-            }
-        });
+        Thread valueWorker = new Thread(() -> {int j = 0;
+                                while(j < 20000){(this.i)++;j++;}});
         valueWorker.start();
         Thread printWorker = new Thread(() -> {int j = 0; while(j < 20000) {System.out.println(this.i); j++;}});
         printWorker.start();
