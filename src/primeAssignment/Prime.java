@@ -23,6 +23,8 @@ public class Prime {
                 }
             }
         }
+
+
 //        for(boolean i : a) {
 //            System.out.println(i);
 //        }
@@ -43,7 +45,7 @@ public class Prime {
 
     public static void main(String[] args) {
        Prime p = new Prime();
-        p.generatePrime(70);
+        p.generatePrime(500);
 
     }
 }

@@ -1,14 +1,12 @@
 package CallableDemoAssignment;
 
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
+import java.util.concurrent.*;
 
 /**
  * Created by jagtapm on 8/1/2017.
  */
-
+//make less redundant, check isDone, arraylist of futures, create one class, 5 objects
+//how to continue with other threads even when one future gets blocked
 /**
  * class CallableDemo is used to compute and display sum of prime numbers
  * between 1 to 500. Callable interface and ExecutorService are used.
@@ -77,12 +75,16 @@ public class CallableDemo {
         });
 
 
+
+
         try {
             int total = sum1.get() + sum2.get() + sum3.get() + sum4.get() + sum5.get();
             System.out.printf("Total sum of primes between 1 to 500 is %d%n", total);
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
+            e.printStackTrace();
+        } catch (CancellationException e) {
             e.printStackTrace();
         }
 
@@ -108,6 +110,7 @@ public class CallableDemo {
         }
         return (factors == 2);
     }
+
 
 
 }
