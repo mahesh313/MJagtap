@@ -38,8 +38,8 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
             requestDispatcher.forward(request, response);
         } else {
             pw.write("<H3>Wrong Username or Password!!</H3>");
-            RequestDispatcher requestDispatcher = request.getRequestDispatcher("/login.html");
-            requestDispatcher.forward(request, response);
+            pw.write("<br><a href=\"login.html\">Try login again</a>");
+
         }
     }
 }
