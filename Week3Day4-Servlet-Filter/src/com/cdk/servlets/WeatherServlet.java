@@ -30,6 +30,8 @@ public class WeatherServlet extends javax.servlet.http.HttpServlet {
         PrintWriter pw = response.getWriter();
         pw.write("Weather of the "+cityName+" on "+dayName+" day is : "+data.get(cityName)+" degree.");
         pw.write("<br><a href=\"Menu.html\">visit menu page</a>");
+        pw.write("<br><a href=\"logout\">logout</a>");
+
 
     }
 }

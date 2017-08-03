@@ -11,6 +11,8 @@ public class NewsServlet extends javax.servlet.http.HttpServlet {
         PrintWriter pw = response.getWriter();
         pw.write("News Alert: India won the match");
         pw.write("<br><a href=\"Menu.html\">visit menu page</a>");
+        pw.write("<br><a href=\"logout\">logout</a>");
+
 
     }
 }
