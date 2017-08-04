@@ -7,14 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d426f2b-481a-4f38-a44e-a126a214cf6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day4-Servlet-Filter/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/filters/LoginFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/LoginServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/LogoutServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/NewsServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/WeatherServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day3-TDD/src/problem_statement" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/problemStatement.text" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week3Day3-TDD/tests/com/cdk/shop/JabberSoapLog.txt" afterPath="$PROJECT_DIR$/Week3Day3-TDD/tests/com/cdk/shop/JabberSoapLog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/filters/ChinaFilter.java" afterPath="$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/filters/ChinaFilter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,17 +27,17 @@
         <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/web/Menu.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="38" />
+              <caret line="7" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Week3Day4-Servlet-Filter.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/Week3Day4-Servlet-Filter.iml">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/web/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="429">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -49,8 +46,8 @@
       <file leaf-file-name="NewsServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/NewsServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/WeatherServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="808">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <caret line="33" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,21 +67,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChinaFilter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChinaFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/filters/ChinaFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="363">
+              <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
-              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <caret line="15" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -94,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/LogoutServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="429">
-              <caret line="13" column="84" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="13" column="84" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,20 +103,10 @@
         <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/filters/LoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="594">
-              <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+              <caret line="18" column="47" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpServlet.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -127,11 +114,21 @@
       <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="742">
-              <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+            <state relative-caret-position="-17">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problemStatement.text" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/problemStatement.text">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,8 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Week2Day5/src/arrayApi/ArrayManipulatorService.java" />
-        <option value="$PROJECT_DIR$/Week2Day5/src/messageApi/MessageService.java" />
         <option value="$PROJECT_DIR$/Week2Day5/src/arrayApi/ArrayHolderTest.java" />
         <option value="$PROJECT_DIR$/Week2Day5/src/messageApi/MessageSender.java" />
         <option value="$PROJECT_DIR$/Week2Day5/src/arrayApi/ArrayHolder.java" />
@@ -229,8 +224,10 @@
         <option value="$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/LoginServlet.java" />
         <option value="$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/NewsServlet.java" />
         <option value="$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/WeatherServlet.java" />
-        <option value="$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/filters/ChinaFilter.java" />
         <option value="$PROJECT_DIR$/Week3Day4-Servlet-Filter/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Week3Day3-TDD/src/problem_statement" />
+        <option value="$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/problemStatement.text" />
+        <option value="$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/filters/ChinaFilter.java" />
       </list>
     </option>
   </component>
@@ -245,7 +242,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
-    <option name="width" value="2574" />
+    <option name="width" value="2559" />
     <option name="height" value="1371" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -277,7 +274,31 @@
             <path>
               <item name="MJagtap" type="b2602c69:ProjectViewProjectNode" />
               <item name="MJagtap" type="462c0819:PsiDirectoryNode" />
+              <item name="Week3Day3-Servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MJagtap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MJagtap" type="462c0819:PsiDirectoryNode" />
+              <item name="Week3Day3-Servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="RandomServlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MJagtap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MJagtap" type="462c0819:PsiDirectoryNode" />
               <item name="Week3Day3-TDD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MJagtap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MJagtap" type="462c0819:PsiDirectoryNode" />
+              <item name="Week3Day3-TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MJagtap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MJagtap" type="462c0819:PsiDirectoryNode" />
+              <item name="Week3Day3-TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MJagtap" type="b2602c69:ProjectViewProjectNode" />
@@ -747,7 +768,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499792628420</updated>
-      <workItem from="1501697613492" duration="16381000" />
+      <workItem from="1501697613492" duration="18400000" />
     </task>
     <servers />
   </component>
@@ -784,10 +805,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16381000" />
+    <option name="totallyTimeSpent" value="18400000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="0" width="2574" height="1371" extended-state="0" />
+    <frame x="-11" y="0" width="2559" height="1371" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -804,8 +825,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949513" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19976452" sideWeight="0.49009475" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19976452" sideWeight="0.5099053" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2009475" sideWeight="0.48664945" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2009475" sideWeight="0.51335055" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -856,20 +877,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/ValueWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/ValueTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week3Day1/src/threadDemoAssignment/PrintWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1099,7 +1106,7 @@
         <state relative-caret-position="301">
           <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1125,9 +1132,9 @@
         <state relative-caret-position="3795">
           <caret line="115" column="35" lean-forward="false" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2503#2504#0" expanded="true" />
-            <element signature="e#2575#2576#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2503#2504#0" expanded="false" />
+            <element signature="e#2575#2576#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1144,14 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
           <caret line="23" column="0" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1188,18 +1187,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/web/Menu.html">
+    <entry file="file://$PROJECT_DIR$/Week3Day3-TDD/src/problem_statement">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="33">
+          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/LogoutServlet.java">
+    <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/problemStatement.text">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="84" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="396">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/filters/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" column="47" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1208,8 +1215,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+        <state relative-caret-position="-17">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/LogoutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="84" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/WeatherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1218,46 +1253,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/NewsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/web/Menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
-          <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/servlets/WeatherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/filters/LoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/src/com/cdk/filters/ChinaFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week3Day4-Servlet-Filter/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="363">
+          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
           <folding />
         </state>
       </provider>

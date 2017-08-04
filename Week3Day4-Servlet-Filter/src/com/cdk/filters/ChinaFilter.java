@@ -11,6 +11,7 @@ public class ChinaFilter implements Filter {
 
     public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain) throws ServletException, IOException {
         String ip = req.getRemoteAddr();
+        //assumption that china ips end with 0
         if (ip.endsWith("0")) {
             resp.setContentType("text/html");
             resp.getWriter().write("<H1 style='color:red'>This service is not available in your area</H1>");
