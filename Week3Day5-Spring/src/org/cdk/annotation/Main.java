@@ -1,16 +1,15 @@
-package com.example;
+package org.cdk.annotation;
 
-import javafx.application.Application;
+import com.example.Employee;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
 
         //FileSystemXmlApplicationContext - if xml is outside src
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
-        Employee employee = (Employee) context.getBean("emp");
+        ApplicationContext context = new ClassPathXmlApplicationContext("org/cdk/annotation/annoDemo.xml");
+        org.cdk.annotation.Employee employee = (org.cdk.annotation.Employee) context.getBean("employee");
         System.out.println(employee.getId());
         System.out.println(employee.getName());
         System.out.println(employee.getPhone());

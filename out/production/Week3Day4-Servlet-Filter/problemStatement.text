@@ -1,0 +1,12 @@
+You have to create a 4 page web application as follows
+   Login,Logout,Weather,News
+
+   User is only allowed to access Weather and News page if he/she
+   has logged in otherwise should be redirected to Login page.
+
+   Create a filter to check whether user is logged in or not.
+
+   And Weather and News page will have logout link also.
+
+   This application will not allow people to login also if they
+   are from China.

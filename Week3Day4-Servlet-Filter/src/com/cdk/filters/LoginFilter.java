@@ -18,6 +18,7 @@ public class LoginFilter implements javax.servlet.Filter{
             resp.getWriter().write("<H1 style = 'color:red'>You have to first login to access this page</H1>");
             resp.getWriter().write("<br><a href=\"login.html\">Login here</a>");
         }
+
     }
 
     public void init(javax.servlet.FilterConfig config) throws javax.servlet.ServletException {
